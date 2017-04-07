@@ -1,0 +1,29 @@
+{
+    "name": "warriorgod/international-date-line-crossing",
+    "description": "Display correct itinerary items when a ship crosses the IDL",
+    "keywords": ["idl", "php", "timezone"],
+    "require": {
+        "warriorgod/php-number-range-string": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+      "psr-4": {
+          "Tramsak\\IdlCrossing\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tramsak\\IdlCrossing\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gregor tramsak",
+            "email": "gregor.tramsak@gmail.com"
+        }
+    ]
+}
